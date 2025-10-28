@@ -12,8 +12,9 @@ public class PlayerController : MonoBehaviour
     public float walk_speed;
     public float run_speed;
 
-
-
+    [Header("Accessed Elsewhere")]
+    public bool inRange;
+    public bool vPressed = false;
 
 
 
@@ -31,6 +32,9 @@ public class PlayerController : MonoBehaviour
     {
         transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * 2f);
     }
+
+
+
 
     private void FixedUpdate()
     {

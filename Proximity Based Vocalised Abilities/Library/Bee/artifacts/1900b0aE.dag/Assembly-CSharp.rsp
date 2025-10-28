@@ -371,6 +371,8 @@
 -r:"Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/com.whisper.unity.editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/com.whisper.unity.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
@@ -402,6 +404,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.1.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.1.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/MadeAssets/Character/PlayerController.cs"
+"Assets/MadeAssets/Interactable/Actions/ColourChange.cs"
+"Assets/MadeAssets/Interactable/Checks.cs"
+"Assets/MadeAssets/STT/Mic.cs"
 -langversion:9.0
 /deterministic
 /optimize+
