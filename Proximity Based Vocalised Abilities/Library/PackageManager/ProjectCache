@@ -1,27 +1,27 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/Uni/Y3/Advanced Tech/Voice Proximity/b-coombes-Advanced-Technologies-Project-1/Proximity
+    m_FilePath: D:/Educational/Uni/Year 3/Advanced Tech/b-coombes-Advanced-Technologies-Project-1/Proximity
       Based Vocalised Abilities/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638972501096571769
-    m_Hash: 824027204
+      ticks: 638974174241538889
+    m_Hash: 2857204247
   m_LockFileStatus:
-    m_FilePath: D:/Uni/Y3/Advanced Tech/Voice Proximity/b-coombes-Advanced-Technologies-Project-1/Proximity
+    m_FilePath: D:/Educational/Uni/Year 3/Advanced Tech/b-coombes-Advanced-Technologies-Project-1/Proximity
       Based Vocalised Abilities/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638972501096961860
-    m_Hash: 3488288049
+      ticks: 638974174241558923
+    m_Hash: 325620911
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/Uni/Y3/Advanced Tech/Voice Proximity/b-coombes-Advanced-Technologies-Project-1/Proximity
+m_ProjectPath: D:/Educational/Uni/Year 3/Advanced Tech/b-coombes-Advanced-Technologies-Project-1/Proximity
   Based Vocalised Abilities/Packages
 m_EditorVersion: 6000.1.9f1 (ed7b183fd33d)
 m_ResolvedPackages:
@@ -30,7 +30,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.10.0
   source: 1
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
@@ -130,12 +130,14 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
     compatible:
     - 2.8.2
     - 2.9.1
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
     recommended: 2.8.2
     deprecated: []
   dependencies: []
@@ -214,7 +216,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
@@ -316,7 +318,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.0
   source: 1
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.inputsystem@7fe8299111a7
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
@@ -472,7 +474,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
@@ -563,7 +565,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
@@ -752,7 +754,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.ugui@57cef44123c7
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
@@ -848,7 +850,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.7
   source: 1
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
@@ -974,7 +976,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.0
   source: 5
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.whisper.unity@de9ce92ad4c5
   assetPath: Packages/com.whisper.unity
   name: com.whisper.unity
@@ -3464,7 +3466,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.23
   source: 1
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
@@ -3573,7 +3575,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.36
   source: 1
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.ide.rider@4d374c7eb6db
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
@@ -3697,7 +3699,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
@@ -3777,7 +3779,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
@@ -3865,7 +3867,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.5.1
   source: 2
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.test-framework@7056e7f856e9
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
@@ -4004,7 +4006,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
@@ -4130,7 +4132,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
@@ -4210,7 +4212,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: D:\Uni\Y3\Advanced Tech\Voice Proximity\b-coombes-Advanced-Technologies-Project-1\Proximity
+  resolvedPath: D:\Educational\Uni\Year 3\Advanced Tech\b-coombes-Advanced-Technologies-Project-1\Proximity
     Based Vocalised Abilities\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
