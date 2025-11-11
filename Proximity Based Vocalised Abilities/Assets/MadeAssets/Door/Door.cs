@@ -1,4 +1,5 @@
 using UnityEngine;
+using Whisper.Samples;
 
 public class Door : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class Door : MonoBehaviour
     private Vector3 startPos;
     private Vector3 endPos;
     private float delay = 0.0f;
+    public string stringToSearchFor;
 
+    public MicrophoneDemo microphone;
 
 
     void Start()
@@ -70,16 +73,38 @@ public class Door : MonoBehaviour
 
 
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerStay(Collider collision)
     {
         if (collision.transform.gameObject.name == "Player")
         {
             print("check1");
-            if (moving == false)
+            if(microphone.testText.Contains(stringToSearchFor))
             {
                 print("check2");
-                moving = true;
+                if (moving == false)
+                {
+                    print("check3");
+                    moving = true;
+                    microphone.TaskCompleted();
+                }
             }
+            
+        }
+    }
+
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.transform.gameObject.name == "Player")
+        {
+            microphone.proxCheck = true;
+        }
+    }
+    private void OnTriggerExit(Collider collision)
+    {
+        if (collision.transform.gameObject.name == "Player")
+        {
+            microphone.proxCheck = false;
         }
     }
 

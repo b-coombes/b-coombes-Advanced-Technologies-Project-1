@@ -406,7 +406,6 @@
 "Assets/MadeAssets/Character/PlayerController.cs"
 "Assets/MadeAssets/Door/Door.cs"
 "Assets/MadeAssets/Interactable/Actions/ColourChange.cs"
-"Assets/MadeAssets/Interactable/Checks.cs"
 "Assets/MadeAssets/STT/Mic.cs"
 -langversion:9.0
 /deterministic

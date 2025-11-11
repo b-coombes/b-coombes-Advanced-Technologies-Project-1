@@ -2,8 +2,10 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UI;
 using Whisper.Utils;
+using System.Collections;
 using Button = UnityEngine.UI.Button;
 using Toggle = UnityEngine.UI.Toggle;
+using Unity.VisualScripting;
 
 namespace Whisper.Samples
 {
@@ -16,18 +18,19 @@ namespace Whisper.Samples
         public bool streamSegments = true;
         public bool printLanguage = true;
 
-
+        public bool proxCheck = false;
         [Header("UI")]
 
         public Text outputText;
         public Text micStatus;
 
+        public string testText;
 
         private string _buffer;
 
         private void Awake()
         {
-            whisper.OnNewSegment += OnNewSegment;
+            //whisper.OnNewSegment += OnNewSegment;
 
             microphoneRecord.OnRecordStop += OnRecordStop;
 
@@ -35,6 +38,7 @@ namespace Whisper.Samples
 
         private void Update()
         {
+
             if (Input.GetKeyDown(KeyCode.V))
             {
                 OnButtonPressed();
@@ -42,13 +46,17 @@ namespace Whisper.Samples
             }
             if (playerController.vPressed)
             {
-                micStatus.text = "ON";
+                if (proxCheck)
+                {
+                    micStatus.text = "ON";
+                }
             }
             if (!playerController.vPressed)
             {
                 micStatus.text = "OFF";
             }
-  
+
+
         }
 
 
@@ -59,17 +67,18 @@ namespace Whisper.Samples
 
         private void OnButtonPressed()
         {
-            if (!microphoneRecord.IsRecording)
-            {
-                microphoneRecord.StartRecord();
 
-            }
-            else
-            {
-                microphoneRecord.StopRecord();
-
-            }
+                if (!microphoneRecord.IsRecording)
+                {
+                    microphoneRecord.StartRecord();
+                }
+                else
+                {
+                    microphoneRecord.StopRecord();
+                }
+            
         }
+      
 
         private async void OnRecordStop(AudioChunk recordedAudio)
         {
@@ -83,22 +92,39 @@ namespace Whisper.Samples
             if (res == null || !outputText)
                 return;
 
-            
+
 
             var text = res.Result;
-            
-            outputText.text = text;
+            if (text == " [BLANK_AUDIO]")
+            {
+                text = "(No input detected) ";
+            }
 
+            if (proxCheck)
+            {
+                outputText.text = text.ToUpper();
+                outputText.text = outputText.text.Remove(outputText.text.Length - 1);
+                testText = text.ToLower();
+                testText = testText.Remove(testText.Length - 1);
+                testText = testText.Substring(1);
+            }
         }
-
+        /*
         private void OnNewSegment(WhisperSegment segment)
         {
             if (!streamSegments || !outputText)
                 return;
 
             _buffer += segment.Text;
-            outputText.text = _buffer + "...";
-            
+            outputText.text = _buffer;//  + "...";
+
+
+        }
+        */
+        public void TaskCompleted()
+        {
+            //outputText.text = "";
+            testText = "";
         }
     }
 }
